@@ -28,7 +28,7 @@ const Welcome = () => {
 
   return (
     <div className="w-screen h-screen flex flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex-1 flex flex-col justify-center items-center">
         <img src={Logo} className="w-24 h-24 rounded-full border flex-shrink-0" alt="DealsDray Logo" />
         <div className='w-[90%] flex flex-col justify-end items-center'>
